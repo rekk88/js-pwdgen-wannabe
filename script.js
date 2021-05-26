@@ -16,8 +16,11 @@ var colore = prompt("colore preferito ? eh eh ? ")
 //visualizzazione input in console
 console.log(colore);
 
+// var utente = nome + "." + cognome;
 var psw = nome + cognome + colore + 21;
 var lowerCasePSW = psw.toLowerCase();
+
+document.getElementById("nome_utente").innerHTML="Nome utente : " +  nome + "." + cognome;
 document.getElementById("psw").innerHTML="psw  : " + lowerCasePSW;
 
 
