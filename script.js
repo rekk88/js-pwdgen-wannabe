@@ -12,7 +12,7 @@ var cognome = prompt("inserici il tuo cognome");
 //visualizzazione input in console
 console.log(cognome);
 
-var colore = prompt("colore preferito ? eh eh ? ")
+var colore = prompt("colore preferito ? eh eh ? ");
 //visualizzazione input in console
 console.log(colore);
 
